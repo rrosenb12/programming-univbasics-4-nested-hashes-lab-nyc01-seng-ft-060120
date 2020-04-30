@@ -1,6 +1,6 @@
 
 def hopper
-	programmer_hash = 
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -15,13 +15,13 @@ def hopper
         :languages => ["C"]
       }
     }
-    return programmer_hash[:known_for][:language]
+    return programmer_hash[:known_for][:languages]
 end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
-	programmer_hash = 
+
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -40,7 +40,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-	programmer_hash = 
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -66,7 +66,7 @@ def adding_matz
 # }
 # return the entire updated hash
 
-	programmer_hash = 
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -85,10 +85,10 @@ def adding_matz
 end
 
 def changing_alan
-  # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+  # change what Alan Kay is :known_for to the value of the alans_new_info variable.
   # return the entire updated hash
 
-	programmer_hash = 
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -110,7 +110,7 @@ def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
   # return the entire updated hash
 
-	programmer_hash = 
+	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
